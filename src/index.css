@@ -9,3 +9,16 @@
 input {
     color-scheme:dark;
 }
+
+:root {
+    --rdp-accent-color: #BEF264;
+
+}
+
+.rdp-button:hover:not([disabled]):not(.rdp-day_selected) {
+    background-color: #72b105;
+}
+
+.rdp-day_selected, .rdp-day_selected:focus-visible, .rdp-day_selected:hover {
+    background-color: #72b105;
+}
